@@ -1,0 +1,39 @@
+{
+  "name": "openclaw-reddit-plugin",
+  "version": "1.0.0",
+  "description": "OpenClaw Reddit plugin — post, comment, search, manage your Reddit presence",
+  "main": "cli.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "npx tsc --noEmit"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jugs-eth/reddit-plugin.git"
+  },
+  "keywords": [
+    "reddit",
+    "cli",
+    "openclaw",
+    "automation",
+    "social-media"
+  ],
+  "author": "OpenClaw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jugs-eth/reddit-plugin/issues"
+  },
+  "homepage": "https://github.com/jugs-eth/reddit-plugin#readme"
+}

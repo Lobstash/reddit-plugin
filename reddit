@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Reddit CLI Shell Wrapper
+# Usage: ./reddit <command> [args...]
+
+cd /root/.openclaw/workspace/skills/reddit && npx ts-node cli.ts "$@"
