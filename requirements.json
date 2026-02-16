@@ -1,0 +1,30 @@
+{
+  "name": "reddit",
+  "displayName": "Reddit",
+  "description": "Post content, manage communities, and engage with Reddit platform",
+  "version": "1.0.0",
+  "author": "lobstash",
+  "envVars": [
+    {
+      "name": "REDDIT_ID",
+      "description": "Reddit application client ID for API authentication",
+      "required": true
+    },
+    {
+      "name": "REDDIT_SECRET",
+      "description": "Reddit application client secret for API authentication",
+      "required": true
+    },
+    {
+      "name": "REDDIT_USERNAME",
+      "description": "Reddit username for account authentication",
+      "required": true
+    },
+    {
+      "name": "REDDIT_PASSWORD",
+      "description": "Reddit account password for authentication",
+      "required": true
+    }
+  ],
+  "postInstall": "npm install"
+}
